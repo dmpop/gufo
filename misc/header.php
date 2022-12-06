@@ -9,7 +9,7 @@ $theme = "static/css/";
 if (isset($_COOKIE["theme"]) || isset($_REQUEST["theme"]))
     $theme = "static/css/" . htmlspecialchars(($_COOKIE["theme"] ?? $_REQUEST["theme"]) . ".css");
 else
-    $theme = "static/css/dark.css";
+    $theme = "static/css/auto.css";
 
 echo "<!DOCTYPE html>";
 echo "<html lang='en'>";
