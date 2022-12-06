@@ -1,26 +1,26 @@
 :root {
-    --main-bg: #1c1c1c;
+    --main-bg: #202124;
     --main-fg: #F1F3F4;
 
     --result-link-fg: #8AB4F8;
-    --result-fg: #999da2;
+    --result-fg: #BABCBE;
 
-    --button-bg: #333333;
+    --button-bg: #303134;
 
-    --special-result-border: opacity 0;
-    --special-text-background: #282828;
+    --special-result-border: #3c4043;
+    --special-text-background: #202124;
     --special-text-color: #F1F3F4;
 
     --search-container-text-color: #F1F3F4;
-    --search-container-background-color: #333333;
+    --search-container-background-color: #303134;
     --search-container-background-border: #3C4043;
 
-    --search-form-background-color: #161616;
-    
-    --border: #303134;
+    --search-form-background-color: #202124;
 
-    --footer-fg: #999da2;
-    --footer-bg: #161616;
-    
+    --border: #3c4043;
+
+    --footer-fg: #BABCBE;
+    --footer-bg: #171717;
+
     color-scheme: dark;
 }
