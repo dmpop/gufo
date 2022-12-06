@@ -7,7 +7,7 @@ echo "<title>" . $query . " - Gufo</title>"
 ?>
 <body>
 <form class="sub-search-container" method="get" autocomplete="off">
-    <h1 class="logomobile"><a class="no-decoration" href="./"><span class="X">G</span>ufo</a></h1>
+    <h1 class="logomobile"><a class="no-decoration" href="./"><img style="height: 2.5em;" src="favicon.svg"></a></h1>
     <label>
         <input type="text" name="q"
             <?php

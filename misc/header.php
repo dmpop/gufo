@@ -16,6 +16,7 @@ echo "<html lang='en'>";
 echo "<head>";
 echo "<meta name='viewport' content='width=device-width, initial-scale=1.0'/>";
 echo "<meta charset='UTF-8'/>";
+echo "<link rel='shortcut icon' href='favicon.png' />";
 echo "<meta name='description' content='A lightweight, fast and secure search engine that respects the privacy of users.'/>";
 echo "<meta name='referrer' content='no-referrer'/>";
 echo "<link rel='stylesheet' type='text/css' href='static/css/styles.css'/>";

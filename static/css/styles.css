@@ -62,7 +62,7 @@ a:hover,
     font-size: inherit;
     font-family: sans-serif;
     border: 1px solid var(--search-container-background-border);
-    border-radius: 25px;
+    border-radius: 7px;
 }
 
 .search-button-wrapper button,
@@ -78,7 +78,7 @@ a:hover,
 
 .search-button-wrapper button {
     margin: 30px 60px 0 60px;
-    border-radius: 20px;
+    border-radius: 7px;
 }
 
 .sub-search-container {
@@ -436,15 +436,10 @@ a:hover,
         max-width: 90%;
     }
 }
+
 @font-face {
     font-family: "Karla";
     font-style: normal;
     font-weight: 300;
     src: url("../fonts/Karla-Regular.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: "Barlow";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/Karla-Bold.woff2") format("woff2");
+}
