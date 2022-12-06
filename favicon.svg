@@ -9,7 +9,7 @@
    id="svg822"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="favicon.svg"
-   inkscape:export-filename="/home/dmpop/favicon.png"
+   inkscape:export-filename="/home/dmpop/Documents/gufo/favicon.png"
    inkscape:export-xdpi="96.000008"
    inkscape:export-ydpi="96.000008"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -29,10 +29,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="397.14286"
+     inkscape:cx="400"
      inkscape:cy="272.85714"
      inkscape:document-units="mm"
-     inkscape:current-layer="g817"
+     inkscape:current-layer="g1748"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -70,30 +70,39 @@
          id="g817"
          transform="matrix(0.92429716,0,0,0.92429716,7.9864463,7.9781872)">
         <g
-           id="g8731"
-           transform="matrix(1.0100209,0,0,1.0100209,0.53964866,-1.4804173)">
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:128.614px;line-height:1.25;font-family:sans-serif;fill:#bf00a9;fill-opacity:1;stroke:#ff9d16;stroke-width:3.22041;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             x="75.501289"
-             y="158.38605"
-             id="text2964-3"><tspan
-               sodipodi:role="line"
-               id="tspan2962-6"
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Karla;-inkscape-font-specification:'Karla Bold';fill:#bf00a9;fill-opacity:1;stroke:none;stroke-width:3.22041;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               x="75.501289"
-               y="158.38605">G</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:128.614px;line-height:1.25;font-family:sans-serif;fill:#ffa43b;fill-opacity:0.870588;stroke:#ff9d16;stroke-width:3.22041;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             x="73.628128"
-             y="152.18893"
-             id="text2964"><tspan
-               sodipodi:role="line"
-               id="tspan2962"
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Karla;-inkscape-font-specification:'Karla Bold';fill:#ffa43b;fill-opacity:0.870588;stroke:none;stroke-width:3.22041;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               x="73.628128"
-               y="152.18893">G</tspan></text>
+           id="g1748"
+           transform="translate(-0.84909709,-0.55934197)">
+          <path
+             id="path2628"
+             style="fill:#89ff5d;stroke-width:0.237205"
+             d="m 167.58218,106.86319 c 0,26.60463 -5.99408,54.16481 -32.5987,54.16481 -26.60462,0 -71.281771,-11.72006 -63.745161,-54.16481 4.65123,-26.19489 15.53712,-38.001619 42.141731,-38.00162 26.60463,10e-7 54.20213,11.396992 54.20213,38.00162 z"
+             sodipodi:nodetypes="sssss" />
+          <g
+             id="g2421"
+             transform="matrix(0.76817414,0,0,0.76817414,28.220729,26.819388)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:129.903px;line-height:1.25;font-family:sans-serif;fill:#bf00a9;fill-opacity:1;stroke:#ff9d16;stroke-width:3.25268;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               x="76.797531"
+               y="158.4928"
+               id="text2964-3"><tspan
+                 sodipodi:role="line"
+                 id="tspan2962-6"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Karla;-inkscape-font-specification:'Karla Bold';fill:#bf00a9;fill-opacity:1;stroke:none;stroke-width:3.25268;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 x="76.797531"
+                 y="158.4928">G</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:129.903px;line-height:1.25;font-family:sans-serif;fill:#ffa43b;fill-opacity:0.836876;stroke:#ff9d16;stroke-width:3.25268;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               x="74.905594"
+               y="152.23358"
+               id="text2964"><tspan
+                 sodipodi:role="line"
+                 id="tspan2962"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Karla;-inkscape-font-specification:'Karla Bold';fill:#ffa43b;fill-opacity:0.836876;stroke:none;stroke-width:3.25268;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 x="74.905594"
+                 y="152.23358">G</tspan></text>
+          </g>
         </g>
       </g>
     </g>

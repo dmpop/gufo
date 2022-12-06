@@ -25,7 +25,7 @@ if (isset($_REQUEST["save"]) || isset($_REQUEST["reset"])) {
 require "misc/header.php";
 ?>
 
-<title>LinXer - Settings</title>
+<title>Settings</title>
 <body>
 <div class="misc-container">
     <h1>Settings</h1>
@@ -36,7 +36,6 @@ require "misc/header.php";
                 <select name="theme">
                     <?php
                     $themes = "<option value=\"dark\">Dark</option>
-                        <option value=\"darker\">Darker</option>
                         <option value=\"light\">Light</option>
                         <option value=\"auto\">Auto</option>
                         <option value=\"nord\">Nord</option>

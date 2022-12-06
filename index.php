@@ -5,7 +5,7 @@
 <body>
     <form class="search-container" action="search.php" method="get" autocomplete="off">
         <div style="margin-bottom: 2em;">
-            <img style="height: 7em;" src="favicon.svg">
+            <img style="height: 7em;" src="favicon.png">
         </div>
         <input type="text" name="q" autofocus />
         <input type="hidden" name="p" value="0" />
