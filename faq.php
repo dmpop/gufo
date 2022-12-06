@@ -32,7 +32,7 @@ function print_qa($question, $answer): void
     There's one downside to this though: The uptime may fluctuate, so you have been warned.");
     print_qa("What's your host?", "Gufo is self-hosted on a virtual machine with tons of spare resources, located in a country with decent privacy laws.");
     print_qa("Is CloudFlare being used?", "Yes, CloudFlare is being used to reverse-proxy traffic from the server due to it being behind an unusual port.");
-    print_qa("Where are you getting your search results from?", "Google, Qwant and Brave. Then there's other sources for torrents, special query lookups, etc.
+    print_qa("Where are you getting your search results from?", "Google, Qwant and Brave. Then there's other sources for special query lookups, etc.
     <br>You may find more information on the projects GitHub-page.");
     print_qa("How can you hide my IP from the search engines you are scraping?", "By using CURL, the engines <b>only</b> get the IP-Address of the website which originates from one of the countries above, then it's displayed for you.
 <br>It works like this:<br>Search -> Gufo fetches several engines using CURL with its own IP -> Parse -> Format -> Done, you may now see the results");

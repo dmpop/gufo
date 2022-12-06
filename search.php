@@ -42,8 +42,6 @@ echo "<title>" . $query . " - Gufo</title>"
         generate_search_cat_button(0, "search_icon.svg", "General");
         generate_search_cat_button(1, "search_img_icon.svg", "Images");
         generate_search_cat_button(2, "search_vid_icon.svg", "Videos");
-        generate_search_cat_button(3, "search_torrents_icon.svg", "Torrents");
-        generate_search_cat_button(4, "search_tor_icon.svg", "Tor");
         ?>
     </div>
     <hr>
@@ -83,29 +81,6 @@ switch ($type) {
         print_video_results($results);
         break;
 
-    case 3:
-        if ($config->disable_bittorent_search)
-            echo "<p class=\"text-result-container\">Torrent searches have been disabled.</p>";
-        else {
-            require "engines/bittorrent/merge.php";
-            $results = get_merged_torrent_results($query_encoded);
-            print_elapsed_time(sizeof($results), $start_time);
-            print_merged_torrent_results($results);
-            break;
-        }
-
-        break;
-    case 4:
-        if ($config->disable_hidden_service_search)
-            echo "<p class=\"text-result-container\">The host disabled this feature! :C</p>";
-        else {
-            require "engines/ahmia/hidden_service.php";
-            $results = get_hidden_service_results($query_encoded);
-            print_elapsed_time(sizeof($results), $start_time);
-            print_hidden_service_results($results);
-        }
-
-        break;
     default:
         require "engines/google/text.php";
         $results = get_text_results($query_encoded, $page);

@@ -300,15 +300,6 @@ a:hover,
     color: #ffa43bde;
 }
 
-.tor-active,
-.seeders {
-    color: #50fa7b;
-}
-
-.leechers {
-    color: #ff79c6;
-}
-
 @media only screen and (max-width: 1320px) {
     .special-result-container {
         position: relative;

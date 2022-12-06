@@ -166,7 +166,7 @@ function generate_input_field($name, $side_header, $side_header_url, $placeholde
     echo "</label>";
 }
 
-/** Generates a search category button, like <b>Torrents</b>. */
+/** Generates a search category button, like <b>Images</b>. */
 function generate_search_cat_button($id, $img, $text): void
 {
     echo "<button name='t' value='$id'>";

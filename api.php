@@ -7,7 +7,7 @@ if (!isset($_REQUEST["q"])) {
         <br/>
         <p>\"q\" is the keyword</p>
         <p>\"p\" is the result page (the first page is 0)</p>
-        <p>\"t\" is the search type (0=text, 1=image, 2=video, 3=torrent)</p>
+        <p>\"t\" is the search type (0=text, 1=image, 2=video)</p>
         <br/>
         <p>The results are going to be in JSON format.</p>
         <p>The API supports both POST and GET requests.</p>";
@@ -34,22 +34,6 @@ switch ($type) {
     case 2:
         require "engines/brave/video.php";
         $results = get_video_results($query_encoded);
-        break;
-    case 3:
-        if ($config->disable_bittorent_search)
-            $results = array("error" => "disabled");
-        else {
-            require "engines/bittorrent/merge.php";
-            $results = get_merged_torrent_results($query_encoded);
-        }
-        break;
-    case 4:
-        if ($config->disable_hidden_service_search)
-            $results = array("error" => "disabled");
-        else {
-            require "engines/ahmia/hidden_service.php";
-            $results = get_hidden_service_results($query_encoded);
-        }
         break;
     default:
         require "engines/google/text.php";

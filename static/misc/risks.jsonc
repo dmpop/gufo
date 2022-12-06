@@ -22,8 +22,6 @@
   // Software/Software-related
   "windows 11": "⚠️ Windows 11 requires a Microsoft account and logs massive amounts of data, you have been warned!",
   "chrome": "⚠️ Google Chrome logs massive amounts of data and is trying to make adblockers less efficient, you have been warned!",
-  "torrent": "⚠️ Torrenting exposes your IP-Address, please use a reputable VPN!",
-  "torrentio": "⚠️ Torrenting exposes your IP-Address, please use a reputable VPN!",
   "opera": "⚠️ Opera (the browser) was acquired by a Chinese investment group in 2016, you have been warned!",
   "virtualbox": "⚠️ VirtualBox has been known for not patching various security exploits, you have been warned!",
   "ubuntu": "⚠️ Ubuntu has recently started putting ads in their Terminal, and have gotten some bad reputation thanks to snapd, Canonical, etc. You have been warned!",
