@@ -17,7 +17,7 @@ echo "<head>";
 echo "<meta name='viewport' content='width=device-width, initial-scale=1.0'/>";
 echo "<meta charset='UTF-8'/>";
 echo "<link rel='shortcut icon' href='favicon.png' />";
-echo "<meta name='description' content='A lightweight, fast and secure search engine that respects the privacy of users.'/>";
+echo "<meta name='description' content='A lightweight meta search frontend and an antidote to surveillance capitalism'/>";
 echo "<meta name='referrer' content='no-referrer'/>";
 echo "<link rel='stylesheet' type='text/css' href='static/css/styles.css'/>";
 echo "<link title='Gufo' type='application/opensearchdescription+xml' href='/opensearch.xml?method=POST' rel='search'/>";

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
   <ShortName>Gufo</ShortName>
-  <Description>A meta search engine with full respect for privacy.</Description>
+  <Description>A lightweight meta search frontend and an antidote to surveillance capitalism</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <LongName>Gufo search</LongName>
   <Url rel="results" type="text/html" method="get" template="https://tinyvps.xyz/gufo/search.php?q={searchTerms}" />
