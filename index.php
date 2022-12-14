@@ -1,4 +1,4 @@
-<?php require "misc/header.php"; ?>
+<?php require "inc/header.php"; ?>
 
 <title>Gufo</title>
 
@@ -16,4 +16,4 @@
         </div>
     </form>
 
-    <?php require "misc/footer.php"; ?>
+    <?php require "inc/footer.php"; ?>

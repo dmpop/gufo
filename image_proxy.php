@@ -1,7 +1,7 @@
 <?php
 
 $config = require "config.php";
-require "misc/tools.php";
+require "inc/tools.php";
 
 $url = $_REQUEST["url"];
 

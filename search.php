@@ -1,6 +1,6 @@
 <?php
-require "misc/header.php";
-require "misc/tools.php";
+require "inc/header.php";
+require "inc/tools.php";
 
 $query = htmlspecialchars(trim($_REQUEST["q"]));
 echo "<title>" . $query . " - Gufo</title>"
@@ -107,4 +107,4 @@ if (2 > $type) {
 }
 ?>
 
-<?php require "misc/footer.php"; ?>
+<?php require "inc/footer.php"; ?>

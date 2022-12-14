@@ -1,6 +1,6 @@
 <?php
 $config = require "config.php";
-require "misc/tools.php";
+require "inc/tools.php";
 
 if (!isset($_REQUEST["q"])) {
     echo "<p>Example API request: <a href=\"./api.php?q=gentoo&p=2&t=0\">./api.php?q=gentoo&p=2&t=0</a></p>

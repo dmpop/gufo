@@ -1,5 +1,5 @@
 <?php
-require "misc/header.php";
+require "inc/header.php";
 
 ?>
 
@@ -33,4 +33,4 @@ require "misc/header.php";
         <para>Yes. At least some of them.</para>
     </div>
 
-    <?php require "misc/footer.php"; ?>
+    <?php require "inc/footer.php"; ?>

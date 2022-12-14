@@ -51,7 +51,7 @@ function check_for_privacy_frontend($url)
 
 function check_ddg_bang($query): void
 {
-    $bangs_json = file_get_contents("static/misc/ddg_bang.json");
+    $bangs_json = file_get_contents("static/inc/ddg_bang.json");
     $bangs = json_decode($bangs_json, true);
 
     $array = explode(" ", $query);
@@ -223,7 +223,7 @@ function determine_side_message($query): void
 
     // JSON register
     // Remove lines which only contain a comment, skipping the need of a JSONC library.
-    $decoded = json_decode(jsonc_remove_comments("static/misc/risks.jsonc"));
+    $decoded = json_decode(jsonc_remove_comments("static/inc/risks.jsonc"));
 
     // Cache all words into $matches.
     preg_match_all("/\w+/", $lower, $matches);

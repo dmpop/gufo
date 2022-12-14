@@ -1,6 +1,6 @@
 <?php
 $config = require "config.php";
-require "./misc/tools.php";
+require "./inc/tools.php";
 
 if (isset($_REQUEST["reset"])) {
     if (isset($_SERVER["HTTP_COOKIE"])) {
@@ -22,7 +22,7 @@ if (isset($_REQUEST["save"]) || isset($_REQUEST["reset"])) {
     die();
 }
 
-require "misc/header.php";
+require "inc/header.php";
 ?>
 
 <title>Settings</title>
@@ -102,4 +102,4 @@ require "misc/header.php";
     </form>
 </div>
 
-<?php require "misc/footer.php"; ?>
+<?php require "inc/footer.php"; ?>
