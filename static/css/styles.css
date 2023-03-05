@@ -434,3 +434,10 @@ a:hover,
     font-weight: 300;
     src: url("../fonts/Karla-Regular.woff2") format("woff2");
 }
+
+@font-face {
+    font-family: "Karla Bold";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/Karla-Bold.woff2") format("woff2");
+}
